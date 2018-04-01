@@ -1,0 +1,7 @@
+applications:
+  - name: platmatic-syslog
+    memory: 16M
+    file: ./platmatic-syslog
+    command: ./platmatic-syslog
+    buildpack: binary_buildpack
+    health-check-type: process
